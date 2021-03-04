@@ -14,11 +14,11 @@ public class ComparisonApp {
     System.out.println(objVal1);
     System.out.println(objVal2);
 
-    object1 = new ClassWithObject("Budi", 34); //. THIS CREATE ERROR AT RUNTIME
-    objVal1 = (Integer) object1.getData1();
-    objVal2 = (String) object1.getData2();
-    System.out.println(objVal1);
-    System.out.println(objVal2);
+//    object1 = new ClassWithObject("Budi", 34); //. THIS CREATE ERROR AT RUNTIME
+//     objVal1 = (Integer) object1.getData1();
+//     objVal2 = (String) object1.getData2();
+//     System.out.println(objVal1);
+//     System.out.println(objVal2);
     System.out.println();
 
     ClassWithGeneric<Integer, String> object2 = new ClassWithGeneric<>(34, "Budi");
